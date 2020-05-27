@@ -1,8 +1,6 @@
-<p align="center"> 
-<a href='https://ko-fi.com/M4M580HG' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
-</p>
+# Show Distance And Angle in Corner
 
-# Show Distance And Angle
+This is a fork of the original [Show Distance and Angle Plugin]() by [@Mark2Mark]() that shows the data in the corner.
 
 *This is a plugin for the [Glyphs font editor](http://glyphsapp.com/).*  
 
@@ -15,11 +13,11 @@ It shows the direct distance of two selected elements (`Nodes, Anchors, Componen
 
 ### How to use
 
-When ever you need it, toggle `Show * Distance and Angle` from the view menu.
+When ever you need it, toggle `Show * Distance and Angle in Corner` from the view menu.
 
 ### Examples
 
-![Show Distance And Angle Demo](https://raw.githubusercontent.com/Mark2Mark/Show-Distance-And-Angle-Of-Nodes/40229b6cd64bca593a2990a9c40e2b355fdc3c42/Images/ShowDistanceAndAngle01.gif "Show Distance And Angle")
+![preview](images/preview.png)
 
 ##### Pull Requests
 

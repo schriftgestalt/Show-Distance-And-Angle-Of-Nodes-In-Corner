@@ -49,8 +49,9 @@ class ShowDistanceAndAngleInCorner( ReporterPlugin ):
 			
 			# print(self.menuName, "Version 1.0.5")
 			self.thisMenuTitle = {"name": u"%s:" % self.menuName, "action": None }
-			self.vID = "com.markfromberg.ShowDistanceAndAngleInCorner" # vendorID
-
+			self.vID = "com.weiweihuanghuang.ShowDistanceAndAngleInCorner" # vendorID
+			Glyphs.registerDefault( "%s.fontSize"%self.vID, 10 )
+			
 			self.angleAbsolute = True
 			# if not self.LoadPreferences( ):
 			# 	print("Error: Could not load preferences. Will resort to defaults.")
@@ -134,7 +135,7 @@ class ShowDistanceAndAngleInCorner( ReporterPlugin ):
 
 				currentController = self.controller.view().window().windowController()
 				if currentController:
-				    if not toolIsTextTool and not toolIsToolHand:
+					if not toolIsTextTool and not toolIsToolHand:
 						self.drawLine(x1, y1, x2, y2)
 		except:
 			print(traceback.format_exc())
@@ -234,7 +235,7 @@ class ShowDistanceAndAngleInCorner( ReporterPlugin ):
 	@objc.python_method
 	def drawText( self, text, fontColor=NSColor.whiteColor() ):
 		try:
-			fontSize = Glyphs.defaults["com.mekkablue.ShowDistanceAndAngle3.fontSize"]
+			fontSize = Glyphs.defaults["%s.fontSize"%self.vID]
 
 			fontAttributes = { 
 				#NSFontAttributeName: NSFont.labelFontOfSize_(10.0),

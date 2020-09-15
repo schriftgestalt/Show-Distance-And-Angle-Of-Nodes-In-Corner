@@ -7,23 +7,23 @@
 	<key>CFBundleExecutable</key>
 	<string>plugin</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.markfromberg.ShowDistanceAndAngleInCorner</string>
+	<string>com.weiweihuanghuang.ShowDistanceAndAngleInCorner</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>ShowDistanceAndAngleInCorner</string>
 	<key>CFBundleVersion</key>
-	<string>5</string>
+	<string>6</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.0</string>
+	<string>2.0.1</string>
 	<key>UpdateFeedURL</key>
-	<string></string>
+	<string>https://raw.githubusercontent.com/weiweihuanghuang/Show-Distance-And-Angle-Of-Nodes-In-Corner/master/ShowDistanceAndAngleOfNodesInCorner.glyphsReporter/Contents/Info.plist</string>
 	<key>productPageURL</key>
-	<string></string>
+	<string>https://github.com/weiweihuanghuang/Show-Distance-And-Angle-Of-Nodes-In-Corner</string>
 	<key>productReleaseNotes</key>
 	<string>Glyphs 3 compatibility</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright, by Mark Frömberg (@mark2mark), 2015</string>
+	<string>Forked by Wei Huang, based on code by Mark Frömberg (@mark2mark), 2015</string>
 	<key>NSPrincipalClass</key>
 	<string>ShowDistanceAndAngleInCorner</string>
 	<key>PyMainFileNames</key>

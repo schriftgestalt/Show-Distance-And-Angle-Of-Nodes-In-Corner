@@ -21,7 +21,7 @@
 	<key>productPageURL</key>
 	<string>https://github.com/weiweihuanghuang/Show-Distance-And-Angle-Of-Nodes-In-Corner</string>
 	<key>productReleaseNotes</key>
-	<string>New binary for M1 compatibility</string>
+	<string>New binary for M1 and Glyphs 3 compatibility</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Forked by Wei Huang, based on code by Mark Frömberg (@mark2mark), 2015</string>
 	<key>NSPrincipalClass</key>

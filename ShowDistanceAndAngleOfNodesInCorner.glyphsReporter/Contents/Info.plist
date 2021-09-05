@@ -12,10 +12,10 @@
 	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>ShowDistanceAndAngleInCorner</string>
-	<key>CFBundleVersion</key>
-	<string>7</string>
 	<key>CFBundleShortVersionString</key>
 	<string>2.0.2</string>
+	<key>CFBundleVersion</key>
+	<string>8</string>
 	<key>UpdateFeedURL</key>
 	<string>https://raw.githubusercontent.com/weiweihuanghuang/Show-Distance-And-Angle-Of-Nodes-In-Corner/master/ShowDistanceAndAngleOfNodesInCorner.glyphsReporter/Contents/Info.plist</string>
 	<key>productPageURL</key>
